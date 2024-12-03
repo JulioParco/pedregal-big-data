@@ -6,7 +6,7 @@ function Footer() {
         <nav>
           <h6 className="footer-title">Equipo</h6>
           <li>
-            Erik Jhonatan Marca Loayza
+            Julio Parco Ccaico 
           </li>
           <li>
             Antuane del Rosario Huamani Bernabel

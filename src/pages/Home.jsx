@@ -49,7 +49,7 @@ function Home() {
                 <div className="card-actions justify-end">
                   <button className="btn btn-primary">Pedir plato</button>
                 </div>
-              </div>
+              </div>  
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ function Home() {
                     title="bg-barra-1"
                     width="100%"
                     height="100%"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiMDIxMGIwNTgtOTU3Yi00ZDYxLTk0ZjAtYzExOTZhNjg2YjUzIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiYmM0ZjAzNGItMGY0OS00ZDk0LTg4MDEtNGVmYTM2ZThlNzRlIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
                     frameborder="0"
                     allowFullScreen="false"
                   ></iframe>
@@ -87,14 +87,14 @@ function Home() {
                 Variación mensual en el número de clientes atendidos
                 </h2>
                 <p className="text-lg">
-                Este gráfico de barras muestra la popularidad de los platillos más vendidos en el restaurante durante el último trimestre. Como se puede observar, el lomo Especial es el platillo más popular, con una venta de 500 unidades en el mes de octubre
+                Este gráfico se muestra el numero de clientes que han visitado por mes a nuestro restaurante.
                 </p>
                 <div className="w-full aspect-video">
                   <iframe
                     title="bg-linea2"
                     width="100%"
                     height="100%"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiNmUxYWM0MGYtODU3NS00YzcxLTg0NGQtNTg1NDAwOTE5OTBmIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiZTA3N2VlNmYtNjg4MC00NzQzLWEwZTYtODk5NjMwMTJiMDliIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
                     frameBorder="0"
                     allowFullScreen="false"
                   
@@ -120,7 +120,7 @@ function Home() {
                     title="bg-areas5"
                     width="100%"
                     height="100%"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiYmE5MDRhYzktNzI4OC00ZTRjLWFmNTQtNjA5NTBlYzMyNDc5IiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiYWFkNDkzMTktZGJmZS00ZTBkLWI1YTAtNmVlZTBkNjQ3MGNkIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
                     frameBorder="0"
                     allowFullScreen="true"
                   ></iframe>
@@ -135,17 +135,17 @@ function Home() {
             <div className="card bg-base-100 shadow-xl w-full max-w-4xl mx-auto">
               <div className="card-body">
                 <h2 className="card-title text-center text-2xl font-bold">
-                Impacto de las campañas de marketing
+                Platillos mas vendidos
                 </h2>
                 <p className="text-lg">
-                Este gráfico te permite visualizar cómo diferentes acciones de marketing o promociones influyen en las ventas de productos específicos en tu restaurante. A través de este análisis, podrías identificar qué tipos de campañas generan más ingresos y cuáles no tienen tanto impacto. Esto te permitirá ajustar y optimizar tus futuras estrategias de marketing.
+                Este gráfico muestra los platilos mejores vendido que lograron mayor rendimiento de ingresos.
                 </p>
                 <div className="w-full aspect-video">
                   <iframe
                     title="bg-cascada8"
                     width="100%"
                     height="100%"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiZGJlNDMwNGMtN2I5NC00OTFjLThmNjAtZTRkNDliYTI0OGExIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiYjhlZmY2ZDMtNjY0Zi00MDA5LTg3MTQtNDEzMDFjNWNlZDIyIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
                     frameBorder="0"
                     allowFullScreen="true"
                   ></iframe>
