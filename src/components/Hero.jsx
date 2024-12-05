@@ -1,4 +1,4 @@
-import bgImgHero from "../assets/bg-herox.jpg";
+import bgImgHero from "../assets/bg.heroxx.jpg";
 
 function Hero() {
   return (
@@ -11,11 +11,12 @@ function Hero() {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Restaurante Flores</h1>
+          <h1 className="mb-5 text-5xl font-bold">Florida Blanca SAC</h1>
           <p className="mb-5">
-          Somos un restaurante conocido por sus diversa varidad de platos .
+          Somos una agroexportadora ubicada en la ciudad de Ica, con la central en lima dedicada al 
+          rubo de exportacion de fruta como ùva y espàrrago de calidad..
           </p>
-          <button className="btn btn-primary">Conócenos</button>
+          <button className="btn btn-primary">Ver productos</button>
         </div>
       </div>
     </div>

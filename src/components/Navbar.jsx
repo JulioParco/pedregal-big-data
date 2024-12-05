@@ -62,14 +62,14 @@ function Navbar() {
               <button onClick={(e) => handleNavClick(e, 'inicio')}>Inicio</button>
             </li>
             <li className={activeItem === 'productos' ? 'active' : ''}>
-              <button onClick={(e) => handleNavClick(e, 'productos')}>Platos</button>
+              <button onClick={(e) => handleNavClick(e, 'productos')}>Frutas</button>
             </li>
             <li className={activeItem === 'reportes' ? 'active' : ''}>
-              <button onClick={(e) => handleNavClick(e, 'reportes')}>Reportes de ventas</button>
+              <button onClick={(e) => handleNavClick(e, 'reportes')}>Reporte de plagas</button>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">RESTAURANTE FLORES</a>
+        <a className="btn btn-ghost text-xl">FLORIDA BLANCA SAC</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -77,10 +77,10 @@ function Navbar() {
             <button onClick={(e) => handleNavClick(e, 'inicio')}>Inicio</button>
           </li>
           <li className={activeItem === 'productos' ? 'active' : ''}>
-            <button onClick={(e) => handleNavClick(e, 'productos')}>Platos</button>
+            <button onClick={(e) => handleNavClick(e, 'productos')}>Frutas</button>
           </li>
           <li className={activeItem === 'reportes' ? 'active' : ''}>
-            <button onClick={(e) => handleNavClick(e, 'reportes')}>Reportes de ventas</button>
+            <button onClick={(e) => handleNavClick(e, 'reportes')}>Reportes de plagas</button>
           </li>
         </ul>
       </div>

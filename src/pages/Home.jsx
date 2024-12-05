@@ -16,38 +16,38 @@ function Home() {
           // Palta
         }
         <div id="productos" className="flex flex-col justify-center my-10">
-          <h6 className="text-2xl font-bold text-center mt-10">Productos</h6>
+          <h6 className="text-2xl font-bold text-center mt-10">Frutas</h6>
 
           <div className="flex flex-wrap justify-center gap-4 mt-10">
             <div id="uvas" className="card bg-base-100 w-2/3 shadow-xl lg:w-96 h-96">
               <figure>
                 <img
-                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/a5/7a/e2/tacu-tacu-con-apanado.jpg?w=600&h=400&s=1"
-                  alt="Uva"
+                  src="https://www.editorialderiego.com/wp-content/uploads/2022/12/Esparrago_01.jpg"
+                  alt="Esparrago"
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Tallarine Saltado con huevos</h2>
-                <p>Este es uno de los platos mas conocidos de nuestra casa de comida.</p>
+                <h2 className="card-title">Espárrago</h2>
+                <p>Fruta 1</p>
                 <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Pedir plato</button>
+                  <button className="btn btn-primary">Ver fruta</button>
                 </div>
               </div>
             </div>
             <div id="paltas" className="card bg-base-100 w-2/3 shadow-xl lg:w-96 h-96">
               <figure>
                 <img
-                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/7f/e5/b3/die-kalbsleber-mit-safterl.jpg?w=1200&h=-1&s=1"
-                  alt="Palta"
+                  src="https://5aldia.cl/wp-content/uploads/2018/04/beneficios-de-las-uvas-cover-696x435.jpg"
+                  alt="Uva"
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Gourmet</h2>
+                <h2 className="card-title">Uva</h2>
                 <p>
-                  Este es el segundo plato mas conocido de nuestro restaurante.
+                  Fruta 2
                 </p>
                 <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Pedir plato</button>
+                  <button className="btn btn-primary">Ver fruta</button>
                 </div>
               </div>  
             </div>
@@ -56,24 +56,24 @@ function Home() {
 
         <div id="reportes" className="flex flex-col justify-center my-10">
           <h6 className="text-2xl font-bold text-center mt-10">
-            Reportes de venta 
+            Reportes de plagas  
           </h6>
 
           <div className="flex flex-col gap-6">
             <div className="card bg-base-100 shadow-xl w-full max-w-4xl mx-auto mt-6">
               <div className="card-body">
                 <h2 className="card-title text-center text-2xl font-bold">
-                Ventas mensuales
+                Numero de plagas por mes 
                 </h2>
                 <p className="text-lg">
-                Este gráfico de barras muestra las ventas mensuales de nuestro restaurante. Como se puede observar, las ventas en diciembre fueron significativamente más altas, probablemente debido a las fiestas de fin de año, mientras que las ventas en septiembre fueron más bajas
+                En este grafico se muestra las cantidades de plagas por mes
                 </p>
                 <div className="w-full aspect-video">
                   <iframe
                     title="bg-barra-1"
                     width="100%"
                     height="100%"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiYmM0ZjAzNGItMGY0OS00ZDk0LTg4MDEtNGVmYTM2ZThlNzRlIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiNmIxMDgzNzktNTA3MC00MGZjLWE0NjctZTY4NDAxNzI4NDg2IiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
                     frameborder="0"
                     allowFullScreen="false"
                   ></iframe>
@@ -84,7 +84,7 @@ function Home() {
             <div className="card bg-base-100 shadow-xl w-full max-w-4xl mx-auto">
               <div className="card-body">
                 <h2 className="card-title text-center text-2xl font-bold">
-                Variación mensual en el número de clientes atendidos
+                Numero por tipo de plaga por día
                 </h2>
                 <p className="text-lg">
                 Este gráfico se muestra el numero de clientes que han visitado por mes a nuestro restaurante.
@@ -94,7 +94,7 @@ function Home() {
                     title="bg-linea2"
                     width="100%"
                     height="100%"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiZTA3N2VlNmYtNjg4MC00NzQzLWEwZTYtODk5NjMwMTJiMDliIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiZmYwNGMxOGQtNDdiMS00YTZhLTk2NTktNDQ0MDZhZTMwNmEwIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
                     frameBorder="0"
                     allowFullScreen="false"
                   
@@ -110,17 +110,17 @@ function Home() {
             <div className="card bg-base-100 shadow-xl w-full max-w-4xl mx-auto">
               <div className="card-body">
                 <h2 className="card-title text-center text-2xl font-bold">
-                Canales de contacto con los clientes 
+                Plagas que atacan mas 
                 </h2>
                 <p className="text-lg">
-                  En el grafico indica el numero de canales en donde se han contactactado con nuestros clientes 
+                  En este grafico indica las 2 playas mayores que atacan con mas frecuencia a la fruta 
                 </p>
                 <div className="w-full aspect-video">
                   <iframe
                     title="bg-areas5"
                     width="100%"
                     height="100%"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiYWFkNDkzMTktZGJmZS00ZTBkLWI1YTAtNmVlZTBkNjQ3MGNkIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiZDQ5MzJlMWEtZTkwNS00ZDMxLTg4MWItZjZkNDczZWEyMjJmIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
                     frameBorder="0"
                     allowFullScreen="true"
                   ></iframe>
@@ -135,17 +135,17 @@ function Home() {
             <div className="card bg-base-100 shadow-xl w-full max-w-4xl mx-auto">
               <div className="card-body">
                 <h2 className="card-title text-center text-2xl font-bold">
-                Platillos mas vendidos
+                Tratamiento con aplicaciòn de productos 
                 </h2>
                 <p className="text-lg">
-                Este gráfico muestra los platilos mejores vendido que lograron mayor rendimiento de ingresos.
+                Este gráfico muestra los productos aplicas y el efecto que hace
                 </p>
                 <div className="w-full aspect-video">
                   <iframe
                     title="bg-cascada8"
                     width="100%"
                     height="100%"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiYjhlZmY2ZDMtNjY0Zi00MDA5LTg3MTQtNDEzMDFjNWNlZDIyIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiNDFjOTM2MjEtYTA2OC00MzlmLTg2OTQtNWVkYjMyZTE4YTdjIiwidCI6IjEzODQxZDVmLTk2OGQtNDYyNC1hN2RhLWQ2OGE2MDA2YTg0YSIsImMiOjR9"
                     frameBorder="0"
                     allowFullScreen="true"
                   ></iframe>

@@ -6,14 +6,9 @@ function Footer() {
         <nav>
           <h6 className="footer-title">Equipo</h6>
           <li>
-            Julio Parco Ccaico 
+            Julio Parco Ccaico
           </li>
-          <li>
-            Antuane del Rosario Huamani Bernabel
-          </li>
-          <li>
-            Reggy Arturo Bernabel
-          </li>
+          
         </nav>
 
       </footer>
